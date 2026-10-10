@@ -1,0 +1,126 @@
+[
+  {
+    "image": "tangent-2023.png",
+    "pdf": "demo-2023.pdf",
+    "spread": 4,
+    "clip": [
+      581,
+      338,
+      716,
+      475
+    ],
+    "sha256": "9278f5cc60388da2ed63eaa946c82e0902f0867047fc9b5ea6051bae16e3b6b2"
+  },
+  {
+    "image": "tangent-2025.png",
+    "pdf": "demo-2025.pdf",
+    "spread": 5,
+    "clip": [
+      157,
+      120,
+      282,
+      290
+    ],
+    "sha256": "d588a28792d716468d4a49293fa61a5d9e10b67124993264be0bca10a9ee04b6"
+  },
+  {
+    "image": "tangent-2026.png",
+    "pdf": "demo-2026.pdf",
+    "spread": 5,
+    "clip": [
+      582,
+      310,
+      712,
+      438
+    ],
+    "sha256": "f223ca76f3c703d136f05e7f197e8fb8bc7a8925b89b1bef533a58e99a5413d5"
+  },
+  {
+    "image": "negative-2023.png",
+    "pdf": "demo-2023.pdf",
+    "spread": 4,
+    "clip": [
+      538,
+      100,
+      751,
+      207
+    ],
+    "sha256": "9278f5cc60388da2ed63eaa946c82e0902f0867047fc9b5ea6051bae16e3b6b2"
+  },
+  {
+    "image": "positive-2025.png",
+    "pdf": "demo-2025.pdf",
+    "spread": 4,
+    "clip": [
+      512,
+      337,
+      768,
+      450
+    ],
+    "sha256": "d588a28792d716468d4a49293fa61a5d9e10b67124993264be0bca10a9ee04b6"
+  },
+  {
+    "image": "maxima-open-2026.png",
+    "pdf": "open-2026-0.pdf",
+    "spread": 2,
+    "clip": [
+      506,
+      281,
+      745,
+      402
+    ],
+    "sha256": "34945a3a1592492a39e5d36bb3eed0da413de98a3019660192821ff8067bcbca",
+    "displayCorrection": {
+      "image": "maxima-open-2026.svg",
+      "reason": "Уточнена подпись y=f′(x) в соответствии с текстом официального условия. Геометрия кривой и осей сохранена."
+    }
+  },
+  {
+    "image": "maxima-2026.png",
+    "pdf": "demo-2026.pdf",
+    "spread": 5,
+    "clip": [
+      69,
+      336,
+      368,
+      473
+    ],
+    "sha256": "f223ca76f3c703d136f05e7f197e8fb8bc7a8925b89b1bef533a58e99a5413d5"
+  },
+  {
+    "image": "quadratic-open-2026.png",
+    "pdf": "open-2026-0.pdf",
+    "spread": 3,
+    "clip": [
+      571,
+      103,
+      691,
+      238
+    ],
+    "sha256": "34945a3a1592492a39e5d36bb3eed0da413de98a3019660192821ff8067bcbca"
+  },
+  {
+    "image": "quadratic-2023.png",
+    "pdf": "demo-2023.pdf",
+    "spread": 5,
+    "clip": [
+      573,
+      90,
+      708,
+      221
+    ],
+    "sha256": "9278f5cc60388da2ed63eaa946c82e0902f0867047fc9b5ea6051bae16e3b6b2"
+  },
+  {
+    "image": "intersection-2025.png",
+    "pdf": "demo-2025.pdf",
+    "spread": 5,
+    "clip": [
+      566,
+      380,
+      707,
+      514
+    ],
+    "sha256": "d588a28792d716468d4a49293fa61a5d9e10b67124993264be0bca10a9ee04b6"
+  }
+]

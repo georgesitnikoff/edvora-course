@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Edvora</title>
+  <desc id="description">Белая буква E и график производной на зелёном фоне</desc>
+  <defs>
+    <linearGradient id="background" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#205b42"/>
+      <stop offset="1" stop-color="#183e33"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#background)"/>
+  <path d="M141 139h182v54H201v45h103v52H201v48h126v55H141V139Z" fill="#fff"/>
+  <path d="M114 354c50-24 87-22 118 6 33 29 69 25 109-14 19-18 37-31 57-38" fill="none" stroke="#c7f184" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="397" cy="308" r="16" fill="#fef08a"/>
+</svg>

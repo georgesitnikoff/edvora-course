@@ -1,0 +1,41 @@
+{
+  "id": "./",
+  "name": "Edvora — производная до конца",
+  "short_name": "Edvora",
+  "description": "49 коротких уроков: производная, касательная, поведение функции и первообразная. Проверки знаний и прогресс на устройстве.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#f8f9f5",
+  "theme_color": "#205b42",
+  "categories": [
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "./launchericon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./launchericon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./edvora-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-07",
+  "course": {
+    "lessons": 49,
+    "steps": 1167,
+    "minSteps": 20,
+    "maxSteps": 29,
+    "checkpointQuestions": 147,
+    "formulaAssemblies": 5,
+    "graphSteps": 583,
+    "exploreSteps": 67,
+    "originalTopicBundles": 24,
+    "preservedOriginalSteps": 967,
+    "storySteps": 154,
+    "contextSteps": 117
+  },
+  "engine": {
+    "states": 919,
+    "goals": 73
+  },
+  "render": {
+    "graphStates": 2553,
+    "textBlocks": 5431,
+    "mathBlocks": 2267
+  },
+  "independentAnswers": {
+    "computed": 479,
+    "scene": 13,
+    "formula": 5,
+    "failures": 0
+  },
+  "builds": [
+    "/",
+    "/edvora-test/"
+  ],
+  "finalBuild": "/",
+  "browser": "Chrome",
+  "layoutContentWidths": [
+    320,
+    375,
+    768,
+    1280
+  ],
+  "layout": {
+    "lessonScreens": 1167,
+    "otherScreens": 3,
+    "groups": 40,
+    "horizontalOverflow": 0,
+    "clippedSvgLabels": 0
+  },
+  "numericKeyHeight": 48,
+  "manualCoverage": "Selected flows described in docs/QA_REPORT.md; the completion scenario starts with a generated fixture for the first 26 stages and manually answers the final three questions.",
+  "physicalMobileAndOfflineInstallTested": false,
+  "published": false
+}

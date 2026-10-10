@@ -1,0 +1,496 @@
+{
+  "format": "edvora-progress",
+  "schema": 2,
+  "course": "derivatives-v2",
+  "updatedAt": 1791379819204,
+  "steps": {
+    "L01-a-I01": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "completedAt": 1791379819204
+    },
+    "L01-C01": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C02": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {
+          "x": 0
+        },
+        "visited": {}
+      },
+      "completedAt": 1791379819204
+    },
+    "L01-C03": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C04": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C05": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C06": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204
+    },
+    "L01-C07": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C08": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C09": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C10": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C11": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204
+    },
+    "L01-C12": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C13": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C14": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C15": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-C16": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "completedAt": 1791379819204
+    },
+    "L01-S01": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {},
+        "visited": {}
+      },
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-S02": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "completedAt": 1791379819204
+    },
+    "L01-S03": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {
+          "x": 0
+        },
+        "visited": {}
+      },
+      "completedAt": 1791379819204
+    },
+    "L01-S04": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-S05": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "completedAt": 1791379819204
+    },
+    "L01-S06": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "lab": {
+        "values": {
+          "x": 0
+        },
+        "visited": {}
+      },
+      "completedAt": 1791379819204
+    },
+    "L01-S07": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    },
+    "L01-S08": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "completedAt": 1791379819204
+    },
+    "L01-S09": {
+      "completed": true,
+      "attempts": 0,
+      "wrongAttempts": 0,
+      "input": "",
+      "selected": [],
+      "sequence": [],
+      "hintsShown": 0,
+      "solutionShown": false,
+      "reviewSuccess": 0,
+      "reviewWrongAttempts": 0,
+      "reviewActive": false,
+      "reviewFinished": false,
+      "completedAt": 1791379819204,
+      "dueAt": 1791466219204
+    }
+  },
+  "cursor": {
+    "L01-a": 26
+  },
+  "lastLesson": "L01-a"
+}

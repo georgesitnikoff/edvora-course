@@ -1,0 +1,21 @@
+{
+  "questions": 20,
+  "official": 16,
+  "author": 4,
+  "formulaCount": 148,
+  "migratedCursors": 1167,
+  "scenarios": [
+    "all-correct",
+    "all-wrong",
+    "skipped",
+    "uncertain",
+    "blocks-4-5",
+    "fractions",
+    "zero-draft",
+    "reload",
+    "export-import",
+    "retake-history",
+    "damaged-import",
+    "previous-cursors"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "edvora",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node ./node_modules/typescript/bin/tsc -b && node ./node_modules/vite/bin/vite.js build && node scripts/build-offline.mjs",
+    "lint": "node ./node_modules/eslint/bin/eslint.js .",
+    "preview": "node ./node_modules/vite/bin/vite.js preview",
+    "validate:course": "node scripts/validate-v2.mjs",
+    "validate:pwa": "node scripts/validate-offline.mjs",
+    "test": "npm run validate:course && npm run validate:engine && npm run validate:render && npm run validate:diagnostic",
+    "validate:math": "python3 scripts/independent_math_check.py && python3 scripts/independent_scene_check.py && python3 scripts/independent_diagnostic_check.py",
+    "validate:diagnostic": "node scripts/validate-diagnostic.mjs",
+    "validate:engine": "node scripts/validate-engine.mjs",
+    "validate:render": "node scripts/render-audit.mjs"
+  },
+  "dependencies": {
+    "katex": "^0.18.4",
+    "lucide-react": "^1.37.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.1.0",
+    "eslint": "^10.9.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.4",
+    "globals": "^17.11.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.67.0",
+    "vite": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

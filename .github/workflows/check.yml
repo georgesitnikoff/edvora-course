@@ -1,0 +1,29 @@
+name: Validate Edvora
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: npm ci
+      - run: python -m pip install -r scripts/requirements-qa.txt
+      - run: npm test
+      - run: npm run lint
+      - run: npm run validate:math
+      - run: npm run build
+      - run: npm run validate:pwa
+      - run: npm run build
+        env:
+          VITE_BASE_PATH: /edvora-test/
+      - run: npm run validate:pwa
