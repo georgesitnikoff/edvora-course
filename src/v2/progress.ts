@@ -26,12 +26,12 @@ const isObject=(v:unknown):v is Record<string,unknown>=>!!v&&typeof v==='object'
 function count(v:unknown,max=1e6):number{return typeof v==='number'&&Number.isFinite(v)&&v>=0?Math.min(max,Math.floor(v)):0}
 
 export function validateProgress(raw:unknown):Progress{
-  if(!isObject(raw)||raw.format!==FORMAT||raw.schema!==SCHEMA||raw.course!=='derivatives-v2'||!isObject(raw.steps))throw new Error('Это не файл прогресса Edvora v2.')
+  if(!isObject(raw)||raw.format!==FORMAT||raw.schema!==SCHEMA||raw.course!=='derivatives-v2'||!isObject(raw.steps))throw new Error('Этот файл не подходит. Выбери резервную копию, скачанную из раздела «Мои данные» в Edvora.')
   const result=emptyProgress()
   result.updatedAt=count(raw.updatedAt,Date.now()+86400000)
   for(const [id,data]of Object.entries(raw.steps)){
     const step=stepMap.get(id)
-    if(!step||!isObject(data))throw new Error('В файле есть неизвестный или повреждённый шаг: '+id)
+    if(!step||!isObject(data))throw new Error('Не удалось восстановить данные одного из заданий. Возможно, файл повреждён или относится к другой версии курса.')
     const s=emptyStep(step)
     s.completed=data.completed===true;s.attempts=count(data.attempts);s.wrongAttempts=count(data.wrongAttempts)
     s.input=typeof data.input==='string'?data.input.slice(0,100):''
@@ -86,7 +86,7 @@ export function loadProgress():{progress:Progress;error:string|null}{
       progress.legacy={[backupKey]:raw}
       try{localStorage.setItem(backupKey,raw);backedUp=true}catch{/* Raw data remains available in the export. */}
     }
-    return {progress,error:backedUp?'Не удалось прочитать прогресс. Исходное сохранение оставлено отдельной копией в браузере и включено в экспорт.':'Не удалось прочитать сохранение. Скачай резервную копию, если браузер блокирует запись.'}
+    return {progress,error:backedUp?'Не удалось открыть сохранённый прогресс. Исходные данные сохранены отдельно и попадут в резервную копию.':'Не удалось открыть сохранённый прогресс. Скачай резервную копию перед закрытием вкладки.'}
   }
 }
 export function completedCount(progress:Progress,lessonId?:string){
@@ -141,7 +141,7 @@ export function useProgress(){
   useEffect(()=>{
     const receive=(e:StorageEvent)=>{
       if(e.key!==PROGRESS_KEY||!e.newValue||unsaved.current)return
-      try{const next=validateProgress(JSON.parse(e.newValue));if(next.updatedAt>live.current.updatedAt){live.current=next;setProgress(next);setStorageError(null)}}catch{setStorageError('Другая вкладка записала непонятный формат прогресса. Текущие данные доступны для экспорта.')}
+      try{const next=validateProgress(JSON.parse(e.newValue));if(next.updatedAt>live.current.updatedAt){live.current=next;setProgress(next);setStorageError(null)}}catch{setStorageError('Не удалось загрузить изменения из другой вкладки. Текущий прогресс можно сохранить в резервную копию.')}
     }
     window.addEventListener('storage',receive);return()=>window.removeEventListener('storage',receive)
   },[])
